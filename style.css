@@ -49,7 +49,7 @@ li, a, button{
     }
     
     .nav-links li a:hover{
-        color: rgb(0, 4, 255);
+        color: rgb(83, 194, 19);
     
     }
     
@@ -98,12 +98,266 @@ li, a, button{
     }
     .camera{
         position: absolute;
-        width: 251px;
-        left: 156px;
-        top: 120px;
+        width: 100%;
+        left: 160px;
+        top: 10px;
         box-sizing: border-box ;
-        height: 335px;
+        height: 80vh;
+        background-color: black;
+         margin-top: 95px;
+         margin-left: -160px;
     }
-  
+    #imgc{
+        float: right;
+        margin-top: 50px;
+        margin-right: 50px;
+        width: 320px;
+    }
+    .delel
+    {
+        position :absolute;
+        margin-left: 8%;
+        margin-top: 55%;
+        font-family: sans-serif;
+    }
+    
+    .delel h1{
+        font-size: 50px;
+        color: #fff;
+        margin-bottom: 20px;
+    
+    }
+    
+    span{
+        color: red;
+    }
+    
+    .delel p{
+        color: rgb(240, 236, 236);
+        line-height: 22px;
+        margin-left: 20px;
+    }
+    .delel a{
+        background: #fff8f8;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        display: inline-block;
+        margin: 40px 0;
+        border-radius: 5px;
+    
+    
+    }
+    h2{
+        color: red;
+        float: right;
+        margin-right: -630px;
+        font-size: 105px;
+       
+        
+    }
+    #flos{
+        color: greenyellow;
+    
+    }
+    #t2{
+       font-size: 50px;
+       font-weight: bold;
+       margin: 25px 38px;
+       line-height: 50px;
+       margin-left: 15px;
+   }
+   #band1{
+       position: absolute;
+       color: black;
+       font-family: 'Righteous', cursive;
+       font-weight: 400;
+       background:white;
+       box-sizing: border-box;
+       font-size: 27px;
+       
+       margin-top: 37px;
+       text-align: center;
+       padding-top: 9px;
+       top: 580px;
+       left: 190px;
+   }
+ #familyphoto{
+     position: absolute;
+     width: 1286px;
+     left: 218px;
+     top: 404px;
+     margin-top: 280px;
+     margin-left: -240px;
+ }
+ #band2{
+    position: absolute;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 27px;
+    width: 140vh;
+    left: 180px;
+    margin-top: 1600px;
+    margin-left: -130px;
+    text-align: center;
+    padding-top: 19px;
+    padding-left: 320px;
+}
+ #vloger{
+    position: absolute;
+    width: 1264px;
+    left: 0px;
+    top: 1720px;
+    
+   }
+   #textvlog{
+       position: absolute;
+       color: rgb(0, 0, 0);
+       top: 2400px;
+       text-align: center;
+       font-size: 28px;
+   }
+
+
+
+   /* fooooooooooooooooooooooooooooooooooooooooooter */
+
+   .fo{
+       
+       margin-top: 2600px;
+   }
+     .p a{
+     color: white;
+}
+
+    .p1{
+    margin-top: 2500px;
+    text-decoration: none;
+    border-radius: 44px;
+    background-color: black;
+    position: absolute;
+    width: 356px;
+    height: 428px;
+    left: 25px;
+    top: 77px;
+    color: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.363) -5px 8px;
+
+}
+
+.p2{
+    margin-top: 2500px;
+    text-decoration: none;
+    border-radius: 44px;
+    background-color: black;
+    position: absolute;
+    width: 356px;
+    height: 428px;
+    left: 450px;
+    top: 77px;
+    color: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.363) -5px 8px;
+}
+
+.p3{
+    margin-top: 2500px;
+    text-decoration: none;
+    border-radius: 44px;
+    background-color: black;
+    position: absolute;
+    width: 356px;
+    height: 428px;
+    left: 900px;
+    top: 77px;
+    color: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.363) -5px 8px;
+
+}
+
+
+
+
+/* text */
+.p1 p{
+    margin-top: 25px;  
   }
- 
+.p2 p{
+    margin-top: 25px;  
+  }
+.p3 p{
+  margin-top: 25px;  
+}
+
+
+
+/* imgs */
+
+.imgs{
+    grid-template: 2;
+    position: absolute;
+margin-top: 555px;
+margin-left: 100px;
+    
+}
+.imgs1{
+    width: 400px;
+}
+
+.imgs2{
+    width: 500px;
+}
+
+
+.btn{
+    position: absolute;
+    padding: 9px 45px;
+    background-color: black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 490px;
+    margin-top: 1060px;
+    margin-left: 350px;
+    box-sizing: border-box;
+    
+
+}
+
+.btn a{
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+.copyrhit{
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    margin-top: 1190px;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+
+
+/* Media Queries */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) 
+  {
+   
+
+    nav-link{ display: none;}
+
+
+
+  }  
+
