@@ -25,7 +25,7 @@ li, a, button{
     .logo{
         
     height: 35px;
-    
+
     cursor: pointer;
     }
     
@@ -185,6 +185,14 @@ li, a, button{
        top: 580px;
        left: 190px;
    }
+   .img30{
+     position: absolute;
+     z-index: 33;
+     margin-top: 300px;
+    margin-left: 30%;
+    
+}
+
  #familyphoto{
      position: absolute;
      width: 1286px;
