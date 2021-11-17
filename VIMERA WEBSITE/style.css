@@ -185,22 +185,23 @@ li, a, button{
        top: 580px;
        left: 190px;
    }
-   .img30{
+   .img30 img{
+       z-index: 10;
      position: absolute;
-     z-index: 33;
-     margin-top: 300px;
-    margin-left: -120px;
+     height: 120px;
+     margin-top: 85px;
+     left: 4px;
     
 }
 
- #familyphoto{
-     position: absolute;
-     width: 1286px;
-     left: 218px;
-     top: 404px;
-     margin-top: 280px;
-     margin-left: -240px;
- }
+#familyphoto{
+    position: absolute;
+    width: 1286px;
+    left: 218px;
+    top: 404px;
+    margin-top: 280px;
+    margin-left: -240px;
+}
  #band2{
     position: absolute;
     color: black;
@@ -464,46 +465,22 @@ margin-left: 100px;
 
 
               #familyphoto{
-                position: absolute;
-                width: 435px;
-                left: 218px;
-                top: 404px;
-                margin-top: 230px;
-                margin-left: -240px;
+                width: 100%;
+                margin-top: 330px;
             }
 
             #band1{
-                position: absolute;
-                color: black;
-                font-family: 'Righteous', cursive;
-                font-weight: 400;
-                background:white;
-                box-sizing: border-box;
-                font-size: 10px;
-                margin-top: -40px;
-                padding-top: 9px;
-                top: 640px;
-                left: 25px;
-                margin-left: -1px;
-            }
-            .camera{
-                position: absolute;
-                height: 120vh;
                 width: 100%;
-                left: 160px;
-                top: -10px;
-                box-sizing: border-box ;
-                background-color: black;
-                margin-top: 95px;
-                margin-left: -160px;
-               }  
+                font-size: 12px;
+                margin-left: -190px;
+                margin-top: 120px;
+            }  
 
                
                  #vloger{
-                position: absolute;
-                width: 413px;
-                left: 0px;
-                top: 1000px;
+
+                    width: 100%;
+                    margin-top: -650px;
                 }
                  
                 .h2{
@@ -511,18 +488,10 @@ margin-left: 100px;
                       
                 }
                 #band2{
-                    position: absolute;
-                    color: black;
-                    font-family: 'Righteous', cursive;
-                    font-weight: 400;
-                    font-size: 10px;
-                    width: 140vh;
-                    left: 25px;
-                    margin-top: 885px;
-                    margin-left: -240px;
-                    text-align: center;
-                    padding-top: 46px;
-                    padding-left: 230px;
+                    display: inline-block;
+                   font-size: 12px;
+                   margin-top: 135vh;
+                   left: -350px;
              }
 
              h2{
@@ -543,45 +512,43 @@ margin-left: 100px;
             }
 
             #time{
+                position: absolute;
                 color: red;
-                font-size: 20px;
-                margin-left: 190px;
-                margin-top: -24px;
+                font-size: 12px;
+                margin-left: 260px;
+                margin-top: -14px;
                 list-style: none;
-                background-color: white;
+                background-color: rgb(255, 255, 255);
                 border-radius: 5px;
                 margin-right: 6px;
-                text-align: center;
                 font-weight: bold ;
                 box-shadow: rgb(119, 119, 119) -1px 1px;
+                
             }
 
             #textvlog{
-                margin-left: 55px;
-                margin-top: 99px;
-                position: absolute;
-                color: rgb(0, 0, 0);
-                top: 1120px;
-                text-align: center;
-                font-size: 15px;
-                height: 66px;
-                width: 316px;
+             font-size: 8px;
+             margin-top: -1090px;
+             align-items: center;
+             left: 30px ;
+
             }
 
-
+            footer{
+                margin-top: 600px;
+            }
             .fo{
 
                 
-                margin-top: 1600px;
+                margin-top: 1800px;
             }
 
 
             .p1{
-                margin-top: 1250px;
+                margin-top: 1430px;
                 text-decoration: none;
                 border-radius: 44px;
                 background-color: black;
-                position: absolute;
                 width: 260px;
                 height: 312px;
                 left: 80px;
@@ -593,11 +560,10 @@ margin-left: 100px;
             }
             
             .p2{
-                margin-top: 1630px;
+                margin-top: 1830px;
                 text-decoration: none;
                 border-radius: 44px;
                 background-color: black;
-                position: absolute;
                 width: 260px;
                 height: 312px;
                 left: 80px;
@@ -609,22 +575,11 @@ margin-left: 100px;
             
             .p3{
                 display: none;
-                margin-top: 1500px;
-                text-decoration: none;
-                border-radius: 44px;
-                background-color: black;
-                position: absolute;
-                width: 260px;
-                height: 312px;
-                left: 900px;
-                top: 77px;
-                color: white;
-                text-align: center;
-                box-shadow: rgba(0, 0, 0, 0.363) -5px 8px;
             
             }  
 
 .img1{
+    margin-top: 0px;
     width: 185px;
 }
 .img2{
@@ -696,9 +651,10 @@ left: 63px;
     height: 35px;
     background-color: black;
     position: absolute;
-    
     padding-left: 10px;
 }
-
-
-  }
+ .img30 img{
+     height: 80px;
+ }
+/* media query colsure */
+}
